@@ -1,6 +1,6 @@
 -- The script creates a table and adding some records to it
 
-CREATE TABLE second_table(
+CREATE TABLE IF NOT EXISTS second_table(
     id INT,
     name VARCHAR(256),
     score INT
